@@ -1,0 +1,14 @@
+#+TITLE: Jailable Apps
+Quick and dirty script I wrote to check which apps I can jail using firejail.
+* Check the status of your jailable apps
+#+BEGIN_SRC sh
+  ./jailable-apps.sh
+#+END_SRC
+* Check which apps are already jailed
+#+BEGIN_SRC sh
+  ./jailable-apps.sh | grep ' is jailed'
+#+END_SRC
+* Check which apps can be jailed
+#+BEGIN_SRC sh
+  ./jailable-apps.sh | grep ' is not jailed'
+#+END_SRC
